@@ -1,0 +1,21 @@
+{
+    "name": "karma-testing",
+    "version": "1.0.0",
+    "author": {
+        "name": "polylith GbR",
+        "email": "developers@polylith.de",
+        "url": "http://www.polylith.de"
+    },
+    "devDependencies": {
+        "jquery": "latest",
+        "karma": "~1.5.0",
+        "karma-chrome-launcher": "~2.0.0",
+        "karma-jasmine": "~0.3.5",
+        "karma-cli": "~1.0.1",
+        "jasmine-core": "~2.2.0",
+        "karma-jasmine-jquery": "~0.1.1"
+    },
+    "scripts" : {
+        "test" : "karma start karma.conf.js"
+    }
+}
