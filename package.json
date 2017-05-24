@@ -13,6 +13,8 @@
         "karma-jasmine": "~0.3.5",
         "karma-cli": "~1.0.1",
         "jasmine-core": "~2.2.0",
+        "jasmine-expect": "~3.7.0",
+        "karma-jasmine-matchers": "3.7.0",
         "karma-jasmine-jquery": "~0.1.1"
     },
     "scripts" : {
