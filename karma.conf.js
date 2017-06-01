@@ -9,8 +9,8 @@ module.exports = function(config) {
       'karma-jasmine-matchers'
     ],
     files: [
-      '*/static/jugendhaus/js/lib/jquery-3.2.1.min.js',
-      '*/static/jugendhaus/js/*.js',
+      'node_modules/jquery/dist/jquery.min.js',
+      '*/static/**/*.js',
       '*/tests/**/*.spec.js',
       { pattern: '*/tests/**/*.html', included: false, served: true }
     ],
