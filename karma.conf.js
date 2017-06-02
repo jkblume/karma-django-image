@@ -14,6 +14,9 @@ module.exports = function(config) {
       '*/tests/**/*.spec.js',
       { pattern: '*/tests/**/*.html', included: false, served: true }
     ],
+    exclude: [
+      '*/static/**/lib/*.min.js',
+    ],
     singleRun: true,
     reporters: ['progress']
   });
